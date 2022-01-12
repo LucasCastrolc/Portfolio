@@ -15,7 +15,7 @@
     position: fixed;
     width: 100%;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubutun', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -63,7 +63,7 @@
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubutun', sans-serif;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
@@ -106,6 +106,23 @@
     cursor: pointer;
     display: none;
 }
+
+section{
+    padding: 100px 0 ;
+}
+/*  Sessão sobre */
+.about{
+    font-family: 'Roboto' sans-serif;
+}
+.about .title{
+    font-family: 'Ubutun' sans-serif;
+}
+.about .about-content .left img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
 
 /*  Responsive */
 @media (max-width: 1104px){
