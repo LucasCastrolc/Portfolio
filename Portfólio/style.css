@@ -142,7 +142,7 @@ section .title::after{
     padding: 5px;
     transform: translateX(-50%);
 }
-.about, .services, .skills{
+.about, .services, .skills, .teams{
     font-family: 'Roboto', sans-serif;
 }
 .about .about-content,
@@ -200,14 +200,16 @@ section .title::after{
 }
 
 /*  Sessão sreviços */
-.services{
+.services, .teams{
     background: #111; /* cor do fundo*/
     color: #fff;
 }
-.services .title::before{
+.services .title::before,
+.teams .title::before{
     background: #fff;
 }
-.services .title::after{
+.services .title::after,
+.teams  .title::after{
     background: #111;
     /*color: #fff;*/
     content: "Que oferecemos";
@@ -241,6 +243,21 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+
+/*  sessão equipe  */
+.teams .title::after{
+    content: "Especializada";
+}
+.teams .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+}
+.teams .carousel .card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 /*  sessão especialidade  */
