@@ -6,4 +6,13 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
     }); 
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
+    $('.carousel').owlCarousel({
+
+    });
 });
+
+window.prompt("Qual seu nome?", [""]);
