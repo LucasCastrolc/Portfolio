@@ -11,7 +11,20 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
     $('.carousel').owlCarousel({
-
+        marin: 20,
+        loop: true,
+        autoplayTime: 2000,
+        autoplayHoverPauser:true,
+        reponsive:{
+            0:{
+                item:1,
+                nav:false
+            }
+            0:{
+                item:1,
+                nav:false
+            }
+        }
     });
 });
 
