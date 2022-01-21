@@ -254,6 +254,10 @@ section .title::after{
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover{
+    background: #007ff0;
 }
 .teams .carousel .card img{
     width: 150px;
@@ -261,6 +265,10 @@ section .title::after{
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid #007ff0;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+    border-color: #fff;
 }
 .teams .carousel .card .box{
     display: flex;  
@@ -273,6 +281,26 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    width: 14px;
+    height: 14px;
+    outline: none !important;
+    border-radius: 50%;
+    border-bottom: 2px solid #007ff0 !important;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 15px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #007ff0 !important;
+}
+
 
 /*  sessão especialidade  */
 .skills .title::after{

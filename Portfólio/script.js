@@ -11,17 +11,21 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
     $('.carousel').owlCarousel({
-        marin: 20,
-        loop: true,
-        autoplayTime: 2000,
+        margin:20,
+        loop:true,
+        autoplayTimeOut:2000,
         autoplayHoverPauser:true,
-        reponsive:{
+        responsive:{
             0:{
-                item:1,
+                items:1,
                 nav:false
-            }
-            0:{
-                item:1,
+            },
+            600:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:3,
                 nav:false
             }
         }
