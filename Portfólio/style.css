@@ -142,12 +142,13 @@ section .title::after{
     padding: 5px;
     transform: translateX(-50%);
 }
-.about, .services, .skills, .teams{
+.about, .services, .skills, .teams, .contact{
     font-family: 'Roboto', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
-.skills .skills-content{
+.skills .skills-content,
+.contact .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -374,6 +375,34 @@ section .title::after{
 .skills .skills-content .right .mysql::before{
     width: 42%;
 }
+/*  Sessão Contato  */
+.contact .contact-content .column{
+    width: calc(50% - 30%);
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin: 30px;
+}
+.contact .contact-content .row ion-icon{
+    font-size: 25px;
+    color: #007ff0;
+}
+
 
 /*  Responsive */
 @media (max-width: 1300px){
