@@ -442,6 +442,27 @@ section .title::after{
     padding-top: 10px;
     resize: none;
 }
+.contact .rigth form .button{
+    width: 170px;
+    height: 47px;
+}
+.contact .rigth form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #007ff0;
+    background: #007ff0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .rigth form .button button:hover{
+    color: #007ff0;
+    background: none;
+}
+
 
 
 
@@ -518,7 +539,8 @@ section .title::after{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column{
+    .skills .skills-content .column,
+    .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
     }
