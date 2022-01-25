@@ -9,16 +9,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
     <div class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Port<span>fólio</span></a></div>
             <ul class="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Especialidade</a></li>
-                <li><a href="#">Equipe</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#skills">Especialidade</a></li>
+                <li><a href="#teams">Equipe</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
             <div class="menu-btn">
                 <ion-icon name="menu-outline"></ion-icon>
@@ -32,7 +35,7 @@
             <div class="home-content">
                 <div class="text-1">Olá, meu nome é</div>
                 <div class="text-2">Lucas Castro</div>
-                <div class="text-3">eu sou <span>Desenvolvedor Web</span></div>
+                <div class="text-3">eu sou <span class="typing">Desenvolvedor Web</span></div>
                 <a href="#">Contratar-me</a>
             </div>
         </div>
@@ -46,8 +49,8 @@
                 <div class="column left">
                     <img src="image/lc-removebg-preview.png" alt="">      
                 </div>
-                 <div class="column right">
-                    <div class="text">Sou Lucas e sou <span>Desenvolvedor Web</span></div>
+                 <div class="column rigth">
+                    <div class="text">Sou Lucas e sou <span class="typing-2">Desenvolvedor Web</span></div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias alias ea deserunt odio sequi recusandae laborum soluta mollitia, commodi debitis culpa necessitatibus totam perferendis nulla adipisci consequuntur repellat labore assumenda!</p>
                         <a href="#">Download CV</a>
                  </div>
@@ -97,7 +100,7 @@
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis id maxime corporis aspernatur soluta laborum hic iure explicabo ex! Consectetur explicabo laborum natus. Modi, quae blanditiis, possimus repellat neque reprehenderit voluptatum aut ducimus animi enim hic nobis nemo autem nisi dolores at quos iure fugiat id nihil. Nesciunt repudiandae aliquid voluptatibus totam, vero alias deleniti, dolore optio veritatis ex praesentium.</p>
                    <a href="#">Mais informações</a>
                 </div>
-                 <div class="column right">
+                 <div class="column rigth">
                     <div class="bars">
                         <div class="info">
                             <span>HTML</span>
@@ -237,7 +240,7 @@
                             <input type="text" placeholder="Nome" required>
                         </div>
                         <div class="field email">
-                            <input type="text" placeholder="Email" required>
+                            <input type="email" placeholder="Email" required>
                         </div>
                     </div>
 
@@ -248,14 +251,20 @@
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Escrever..." required></textarea>
                         </div>
-                        <button type="submit">Enviar</button>
+                        <div class="button">
+                            <button type="submit">Enviar</button>
+                        </div>
                     </div>
-                
                 </form>
             </div>
          </div>
     </div>
     </Section>
+
+    <!--sessão footer-->
+    <footer>
+        <span>Desenvolvido por <a href="#">Front</a> Todos os direitos reservados 2022</span>
+    </footer>
 
     <!-- conjunto de ícones de código aberto site: https://ionic.io/ionicons/usage -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
@@ -265,5 +274,7 @@
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> <!-- integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> <!-- integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </body>
 </html>
